@@ -58,3 +58,7 @@ def contactpage(request):
         return redirect("/")
 
     return render(request,"contact.html")
+
+def logoutt(request):
+    logout(request)
+    return redirect("/")
